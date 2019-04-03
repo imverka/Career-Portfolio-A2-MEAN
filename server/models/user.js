@@ -1,3 +1,8 @@
+// File name: user.js
+// Student’s Name: Maninderpal Singh 
+// StudentID: 300942719
+// Date: 03/04/2019
+
 // require modules for our User Model
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");
