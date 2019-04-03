@@ -1,6 +1,7 @@
 // require modules for our User Model
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");
+// mongoose.connect('mongodb://maninder:a123456@ds044989.mlab.com:44989/maninder');
 
 let userSchema = mongoose.Schema(
   {
