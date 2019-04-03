@@ -11,7 +11,7 @@ export class AuthService {
   user: User;
   private authToken: any;
 
-  private endpoint = 'https://career-portfolio-mean.herokuapp.com/api/';
+  private endpoint = 'https://mean-career-portfolio.herokuapp.com/api/';
   //private endpoint = 'http://localhost:3000/api/';
 
   private httpOptions = {
