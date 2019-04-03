@@ -17,28 +17,28 @@
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link" routerLink="/"
-          ><i class="fas fa-lg fa-igloo"></i> Home
+          ><i class="fas fa-home"></i> Home
       </a
         >
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/about"
-          ><i class="fa fa-lg fa-info"></i> About</a
+          ><i class="fas fa-info-circle"></i> About</a
         >
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/projects"
-          ><i class="fa fa-lg fa-briefcase"></i> Projects</a
+          ><i class="fas fa-tasks"></i> Projects</a
         >
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/services"
-          ><i class="fa fa-lg fa-birthday-cake"></i> Services</a
+          ><i class="fas fa-network-wired"></i> Services</a
         >
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/contact"
-          ><i class="fa fa-lg fa-phone"></i> Contact</a
+          ><i class="fas fa-globe-americas"></i> Contact</a
         >
       </li>
 
@@ -47,10 +47,10 @@
           Welcome, {{ user.displayName }}</li>
 
         <li *ngIf="isLoggedIn()" class="nav-item"><a (click)="onLogoutClick()" routerLink="/logout" class="nav-link">
-          <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
+          <i class="fas fa-sign-out-alt"></i> Logout</a></li>
 
         <li *ngIf="!isLoggedIn()" class="nav-item"><a routerLink="/login" class="nav-link">
-          <i class="fas fa-lg fa-sign-in-alt"></i> Login</a></li>
+          <i class="fas fa-sign-in-alt"></i> Login</a></li>
 
     </ul>
   </div>
